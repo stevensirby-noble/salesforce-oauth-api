@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "functions": {
+    "api/oauth/initiate.js": {
+      "maxDuration": 10
+    },
+    "api/oauth/callback.js": {
+      "maxDuration": 10
+    },
+    "api/checkout/create.js": {
+      "maxDuration": 10
+    },
+    "api/webhook.js": {
+      "maxDuration": 10
+    }
+  },
+  "env": {
+    "SALESFORCE_CLIENT_ID": "@salesforce-client-id",
+    "SALESFORCE_CLIENT_SECRET": "@salesforce-client-secret",
+    "SALESFORCE_REDIRECT_URI": "@salesforce-redirect-uri",
+    "STRIPE_SECRET_KEY": "@stripe-secret-key",
+    "WEBHOOK_SECRET": "@webhook-secret"
+  }
+}
