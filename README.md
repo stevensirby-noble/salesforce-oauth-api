@@ -158,3 +158,4 @@ Use Stripe test cards:
 ## 📞 Support
 
 For issues or questions, check the Vercel function logs in your dashboard.
+
